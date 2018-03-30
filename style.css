@@ -1,0 +1,169 @@
+.body{
+    position: relative;
+}
+/*slidable side navigator close*/
+.sideNav{
+    height: 100%;
+    width: 35px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222D32;
+    overflow: hidden;
+    transition: 0.4s;
+    
+}
+/*slidable side navigator open*/
+.sideNavopen{
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222D32;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+/*slidable side navigator link*/
+.sideNav a{
+    padding: 0 8px 8px 0;
+    text-decoration: none;
+    color: #818181;
+    display: inline;
+    transition: 0.3s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*slidable side navigator link text*/
+.linktext{
+    position: absolute;
+    font-size: 0;
+}
+/*slidable side navigator link text toggle class*/
+.linktext1{
+    font-size: 16px;
+    position: absolute;
+    padding-left: 5px;
+    word-wrap: break-word;
+    transition-property: font-size;
+    transition: 0.5s;
+}
+/*slidable side navigator icons*/
+.sideNav .sideicons{
+    height: 35px;
+    width: 35px;
+}
+
+/*main container part*/
+.myContainer{
+    position: absolute;
+    transition: 0.2s;
+    top: -10px;
+    left: 35px;
+    right: 0px;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+
+/*main container toggle*/
+.mycontainer1{
+    left: 150px;
+    right: 0px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+
+.myContainer .myheader{
+    background-color: #1A364A;
+    margin: 0 auto;
+    height: 50px;
+    color: #E9ECEE;
+    font-size: 20px;
+    padding: 20px 10px 0 20px;
+}
+
+.leftHeader{
+    float:left;
+    padding-left: 3px;
+}
+
+.myContainer .myheader a{
+    text-decoration: none;
+    color: #E9ECEE;
+}
+
+.rightHeader{
+    float: right;
+    padding-right: 3px;
+}
+
+.currency{
+    background-color: #122733;
+    color: #96B0C2;
+    -webkit-appearance: none;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.setting{
+    background: transparent;
+    border: none;  
+}
+
+.setting .mysettingbtn{
+    font-size: 18px;
+    color: #f0f2f3;
+}
+
+.myContainer .timespan{
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 10px 0 20px;
+    background-color: #036ca4;
+    color: #E0edf4;
+    display: inline-flex;
+    
+}
+
+.timespan .datepicker{
+    float: left;
+
+}
+
+.timespan img{
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+.timespan .myyearspan{
+    padding: 0 40px;
+}
+
+.timespan .myyearspan input{
+    display: inline;
+ 
+}
+
+.timespan .afyear{
+    float: right;
+}
+
+.myStats{
+    position: absolute;
+    top: 150px;
+}
+
