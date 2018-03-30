@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Screenshot Project1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--slidable side navigator-->
+        <div class="sideNav" id="mySidenav">
+            <ul>
+                <li><img src="images/link1.jpg" class="sideicons" /><a href="#">
+            <span class="linktext">Comapny name</span></a></li>
+                <li><img src="images/link2.jpg" class="sideicons" style="border-radius:50%"/><a href="#">
+            <span class="linktext">Person name</span></a></li>
+                <li><img src="images/link3.png" class="sideicons" /><a href="#">
+            <span class="linktext">Team name</span></a></li>
+            </ul>
+        </div>
+
+        <!--body container-->
+        <div class="myContainer">
+            <!--header-->
+            <div class="myheader">
+                <!--left header-->
+                <div class="leftHeader">
+                    <a href="#">Daily operation - Leavesden</a>
+                    <span class="weatherReport">Weather condition</span>
+                </div>    
+                <!--right header-->
+                <div class="rightHeader">
+                    
+                    <select class="currency">
+                        <option value="Pound" id="gbp"><div>GBP</div></option>
+                        <option value="Rupees" id="inr">INR</option>
+                        <option value="Dollar" id="usd">USD</option>
+                    </select>
+                    <button class="setting"><i class="mysettingbtn fa fa-cog"></i></button>
+                </div>    
+            </div>
+            <!--duration-->
+            <div class="timespan">
+                <div class="datepicker">
+                    <img src="images/calendar.png">
+                    <span class="datetext">Date picker</span>
+                </div>
+                <div class="myyearspan">
+                    <input type="radio" name="yearspan" value="current">Current Day
+                    <input type="radio" name="yearspan" value="monthtodate">Month to date
+                    <input type="radio" name="yearspan" value="yeartodate">Year to date
+                </div>
+                <div class="afyear">
+                    <select>
+                        <option value="2016">AF 2016</option>
+                        <option value="2017">AF 2017</option>
+                        <option value="2018">AF 2018</option>
+                    </select>
+                </div>
+            </div>
+            <div class="myStats">
+                <div>
+                    <table>
+                        <tr>
+                            <td rowspan="2">Revenue 24.28 Euro M <small>Total Command</small></td>
+                            <td><small>VS Prior Year</small>+Euro 17.3 M <small>(+27%)</small></td>
+                        </tr>
+                        <tr><td><small>VS Aug Forecast</small>+Euro 6.8 M <small>(+8%)</small></td></tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td rowspan="2">ATTENDANCE 309,492<small>VISITORS</small></td>
+                            <td><small>VS Prior Year</small>+32.2 K <small>(+12%)</small></td>
+                        </tr>
+                        <tr>
+                            <td><small>VS Aug Forecast</small>+21.9 K <small>(+2%)</small></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td rowspan="2">Revenue 24.28 Euro M <small>Total Command</small></td>
+                            <td><small>VS Prior Year</small>+Euro 17.3 M <small>(+27%)</small></td>
+                        </tr>
+                        <tr>
+                            <td><small>VS Aug Forecast</small>+Euro 6.8 M <small>(+8%)</small></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="myscript.js"></script>
+    </body>
+</html>
